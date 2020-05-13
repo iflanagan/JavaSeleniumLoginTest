@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="/Users/ianflanagan/Workspace/JavaClass/JavaWebDemo/responsivewebdemo" verbose="2">
+    <classes>
+      <class name="com.DemoTest.Tests.WebDemoTest">
+        <methods>
+          <include name="IanTestLoginDesktopWeb"/>
+        </methods>
+      </class> <!-- com.DemoTest.Tests.WebDemoTest -->
+    </classes>
+  </test> <!-- /Users/ianflanagan/Workspace/JavaClass/JavaWebDemo/responsivewebdemo -->
+</suite> <!-- Failed suite [All Test Suite] -->

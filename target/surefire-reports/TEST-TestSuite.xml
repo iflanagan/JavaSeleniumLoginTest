@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="11" failures="0" name="TestSuite" time="155.296" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="13+33"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ianflanagan/Workspace/JavaClass/JavaWebDemo/responsivewebdemo"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ianflanagan/Workspace/JavaClass/JavaWebDemo/responsivewebdemo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13+33"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/x5/0lp7ltd10xl2t8pw_1681p0r0000gp/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.2/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ianflanagan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.2/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.2/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/ianflanagan"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="ianflanagan"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.2/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -X test -DsuiteFile=login.xml"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.2/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2019-09-17"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-build/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="suiteFile" value="login.xml"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="IanTestLoginDesktopWeb" time="24.737"/>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="IanTestLoginDesktopWeb" time="24.947"/>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="IanTestLoginDesktopWeb" time="25.059"/>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="IanTestLoginDesktopWeb" time="3.02"/>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="IanTestLoginDesktopWeb" time="4.776"/>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="IanTestLoginDesktopWeb" time="4.796"/>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="IanTestLoginDesktopWeb" time="6.507"/>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="IanTestLoginDesktopWeb" time="8.533"/>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="IanTestLoginDesktopWeb" time="8.537"/>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="IanTestLoginDesktopWeb" time="10.49"/>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="IanTestLoginDesktopWeb" time="33.894"/>
+</testsuite>

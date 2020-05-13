@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameter test Suite" parallel="tests" thread-count="2" verbose="1">
+ <test name="Calculator Test S6" enabled="true">
+  <parameter name="platformName" value="Android" />
+  <parameter name="platformVersion" value="7.0" />
+  <parameter name="deviceName" value="Samsung_Galaxy_S6_POC118" />
+  <classes>
+   <class name="com.DemoTest.Tests.WebDemoTest">
+    <methods>
+     <include name="pageValidationRDC"/>
+    </methods>
+   </class>
+  </classes>
+ </test>
+ <test name="Calculator Test Tab S4" enabled="true">
+  <parameter name="platformName" value="Android" />
+  <parameter name="platformVersion" value="8.1" />
+  <parameter name="deviceName" value="Samsung_Galaxy_Tab_S4_POC165" />
+  <classes>
+   <class name="com.DemoTest.Tests.WebDemoTest">
+    <methods>
+     <include name="pageValidationRDC"/>
+    </methods>
+   </class>
+  </classes>
+ </test>
+</suite>

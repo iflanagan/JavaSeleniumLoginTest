@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameter test Suite" parallel="tests" thread-count="19" verbose="1">
+    <test name="Login Test windows 8.1 and FF" enabled="true">
+        <parameter name="browser" value="firefox" />
+        <parameter name="version" value="latest" />
+        <parameter name="os" value="Windows 8.1" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 8.1 and FF latest -1" enabled="true">
+        <parameter name="browser" value="firefox" />
+        <parameter name="version" value="latest -1" />
+        <parameter name="os" value="Windows 8.1" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 8.1 and FF latest -2" enabled="true">
+        <parameter name="browser" value="firefox" />
+        <parameter name="version" value="latest -2" />
+        <parameter name="os" value="Windows 8.1" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 8.1 and chrome latest" enabled="true">
+        <parameter name="browser" value="chrome" />
+        <parameter name="version" value="latest -1" />
+        <parameter name="os" value="Windows 8.1" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 8.1 and chrome latest -1" enabled="true">
+        <parameter name="browser" value="chrome" />
+        <parameter name="version" value="latest -1" />
+        <parameter name="os" value="Windows 8.1" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 8.1 and chrome latest -2" enabled="true">
+        <parameter name="browser" value="chrome" />
+        <parameter name="version" value="latest -2" />
+        <parameter name="os" value="Windows 8.1" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 10 and Chrome" enabled="true">
+        <parameter name="browser" value="chrome" />
+        <parameter name="version" value="latest" />
+        <parameter name="os" value="Windows 10" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 10 and Chrome latest -1" enabled="true">
+        <parameter name="browser" value="chrome" />
+        <parameter name="version" value="latest -1" />
+        <parameter name="os" value="Windows 10" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 10 and FF latest" enabled="true">
+        <parameter name="browser" value="firefox" />
+        <parameter name="version" value="latest" />
+        <parameter name="os" value="Windows 10" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 10 and FF latest -1" enabled="true">
+        <parameter name="browser" value="firefox" />
+        <parameter name="version" value="latest -1" />
+        <parameter name="os" value="Windows 10" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 8 and FF latest" enabled="true">
+        <parameter name="browser" value="firefox" />
+        <parameter name="version" value="latest" />
+        <parameter name="os" value="Windows 8" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 8 and FF latest -1" enabled="true">
+        <parameter name="browser" value="firefox" />
+        <parameter name="version" value="latest -1" />
+        <parameter name="os" value="Windows 8" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 8 and chrome latest" enabled="true">
+        <parameter name="browser" value="chrome" />
+        <parameter name="version" value="latest" />
+        <parameter name="os" value="Windows 8" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 8 and chrome latest -1" enabled="true">
+    <parameter name="browser" value="chrome" />
+    <parameter name="version" value="latest" />
+    <parameter name="os" value="Windows 8" />
+    <classes>
+        <class name="com.DemoTest.Tests.WebDemoTest">
+            <methods>
+                <include name="LoginDesktopParameterExample" />
+            </methods>
+        </class>
+    </classes>
+    </test>
+    <test name="Login Test MacOS Catalina and Safari" enabled="true">
+        <parameter name="browser" value="safari" />
+        <parameter name="version" value="latest" />
+        <parameter name="os" value="macOS 10.15" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test MacOS Mojave and Safari" enabled="true">
+        <parameter name="browser" value="safari" />
+        <parameter name="version" value="latest" />
+        <parameter name="os" value="macOS 10.14" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test MacOS High Sierra and Safari" enabled="true">
+        <parameter name="browser" value="safari" />
+        <parameter name="version" value="latest" />
+        <parameter name="os" value="macOS 10.13" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test MacOS Sierra and Safari" enabled="true">
+        <parameter name="browser" value="safari" />
+        <parameter name="version" value="latest" />
+        <parameter name="os" value="macOS 10.12" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test MacOS El Capitan and Safari" enabled="true">
+        <parameter name="browser" value="safari" />
+        <parameter name="version" value="latest" />
+        <parameter name="os" value="macOS 10.11" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+        </suite>

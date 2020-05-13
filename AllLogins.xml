@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameter test Suite" parallel="tests" thread-count="19" verbose="1">
+    <test name="Login Test windows 8.1 and FF" enabled="true">
+        <parameter name="browser" value="firefox" />
+        <parameter name="version" value="latest" />
+        <parameter name="os" value="Windows 8.1" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                    <include name="LoginPerfGlitchUser" />
+                    <include name="LoginProblemUser" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 8.1 and FF -1" enabled="true">
+        <parameter name="browser" value="firefox" />
+        <parameter name="version" value="latest -1" />
+        <parameter name="os" value="Windows 8.1" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                    <include name="LoginLockedoutUser" />
+                    <include name="LoginPerfGlitchUser" />
+                    <include name="LoginProblemUser" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 8.1 and Chrome" enabled="true">
+        <parameter name="browser" value="chrome" />
+        <parameter name="version" value="latest" />
+        <parameter name="os" value="Windows 8.1" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                    <include name="LoginLockedoutUser" />
+                    <include name="LoginPerfGlitchUser" />
+                    <include name="LoginProblemUser" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 8.1 and Chrome -1" enabled="true">
+        <parameter name="browser" value="chrome" />
+        <parameter name="version" value="latest -1" />
+        <parameter name="os" value="Windows 8.1" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                    <include name="LoginLockedoutUser" />
+                    <include name="LoginPerfGlitchUser" />
+                    <include name="LoginProblemUser" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 8.1 and IE" enabled="true">
+        <parameter name="browser" value="internet explorer" />
+        <parameter name="version" value="latest" />
+        <parameter name="os" value="Windows 8.1" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                    <include name="LoginLockedoutUser" />
+                    <include name="LoginPerfGlitchUser" />
+                    <include name="LoginProblemUser" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 10 and Chrome" enabled="true">
+        <parameter name="browser" value="chrome" />
+        <parameter name="version" value="latest" />
+        <parameter name="os" value="Windows 10" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                    <include name="LoginLockedoutUser" />
+                    <include name="LoginPerfGlitchUser" />
+                    <include name="LoginProblemUser" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test windows 10 and Chrome -1" enabled="true">
+        <parameter name="browser" value="chrome" />
+        <parameter name="version" value="latest -1" />
+        <parameter name="os" value="Windows 10" />
+        <classes>
+            <class name="com.DemoTest.Tests.WebDemoTest">
+                <methods>
+                    <include name="LoginDesktopParameterExample" />
+                    <include name="LoginLockedoutUser" />
+                    <include name="LoginPerfGlitchUser" />
+                    <include name="LoginProblemUser" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+<test name="Login Test windows 10 and FF" enabled="true">
+<parameter name="browser" value="firefox" />
+<parameter name="version" value="latest" />
+<parameter name="os" value="Windows 10" />
+<classes>
+    <class name="com.DemoTest.Tests.WebDemoTest">
+        <methods>
+            <include name="LoginDesktopParameterExample" />
+            <include name="LoginLockedoutUser" />
+            <include name="LoginPerfGlitchUser" />
+            <include name="LoginProblemUser" />
+        </methods>
+    </class>
+</classes>
+</test>
+<test name="Login Test windows 10 and FF -1" enabled="true">
+<parameter name="browser" value="firefox" />
+<parameter name="version" value="latest -1" />
+<parameter name="os" value="Windows 10" />
+<classes>
+    <class name="com.DemoTest.Tests.WebDemoTest">
+        <methods>
+            <include name="LoginDesktopParameterExample" />
+            <include name="LoginLockedoutUser" />
+            <include name="LoginPerfGlitchUser" />
+            <include name="LoginProblemUser" />
+        </methods>
+    </class>
+</classes>
+</test>
+<test name="Login Test windows 10 and internetExplorer" enabled="true">
+<parameter name="browser" value="internet Explorer" />
+<parameter name="version" value="latest" />
+<parameter name="os" value="Windows 10" />
+<classes>
+    <class name="com.DemoTest.Tests.WebDemoTest">
+        <methods>
+            <include name="LoginDesktopParameterExample" />
+            <include name="LoginLockedoutUser" />
+            <include name="LoginPerfGlitchUser" />
+            <include name="LoginProblemUser" />
+        </methods>
+    </class>
+</classes>
+</test>
+<test name="Login Test Catalina OS with Safari " enabled="true">
+<parameter name="browser" value="safari" />
+<parameter name="version" value="latest" />
+<parameter name="os" value="macOS 10.15" />
+<classes>
+    <class name="com.DemoTest.Tests.WebDemoTest">
+        <methods>
+            <include name="LoginDesktopParameterExample" />
+            <include name="LoginLockedoutUser" />
+            <include name="LoginPerfGlitchUser" />
+            <include name="LoginProblemUser" />
+        </methods>
+    </class>
+</classes>
+</test>
+<test name="Login Test Mojave OS with Safari " enabled="true">
+<parameter name="browser" value="safari" />
+<parameter name="version" value="latest" />
+<parameter name="os" value="macOS 10.14" />
+<classes>
+    <class name="com.DemoTest.Tests.WebDemoTest">
+        <methods>
+            <include name="LoginDesktopParameterExample" />
+            <include name="LoginLockedoutUser" />
+            <include name="LoginPerfGlitchUser" />
+            <include name="LoginProblemUser" />
+        </methods>
+    </class>
+</classes>
+</test>
+<test name="Login Test High Sierra OS with Safari " enabled="true">
+<parameter name="browser" value="safari" />
+<parameter name="version" value="latest" />
+<parameter name="os" value="macOS 10.13" />
+<classes>
+    <class name="com.DemoTest.Tests.WebDemoTest">
+        <methods>
+            <include name="LoginDesktopParameterExample" />
+            <include name="LoginLockedoutUser" />
+            <include name="LoginPerfGlitchUser" />
+            <include name="LoginProblemUser" />
+        </methods>
+    </class>
+</classes>
+</test>
+<test name="Login Test Sierra OS with Safari " enabled="true">
+<parameter name="browser" value="safari" />
+<parameter name="version" value="latest" />
+<parameter name="os" value="macOS 10.12" />
+<classes>
+    <class name="com.DemoTest.Tests.WebDemoTest">
+        <methods>
+            <include name="LoginDesktopParameterExample" />
+            <include name="LoginLockedoutUser" />
+            <include name="LoginPerfGlitchUser" />
+            <include name="LoginProblemUser" />
+        </methods>
+    </class>
+</classes>
+</test>
+ </suite>
+
+
+
+
+

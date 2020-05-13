@@ -1,0 +1,7 @@
+com/DemoTest/Tests/WebDemoTest.class
+com/DemoTest/Tests/FileDownloadTest.class
+com/DemoTest/Tests/Utils.class
+com/DemoTest/Pages/GuineaPigPage.class
+com/DemoTest/Tests/Constants.class
+com/DemoTest/Tests/TestBase.class
+com/DemoTest/Pages/WebDemoPage.class
