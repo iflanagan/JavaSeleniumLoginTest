@@ -6,13 +6,11 @@
             <class name="com.DemoTest.Tests.WebDemoTest">
                 <methods>
                     <include name="IanTestLoginDesktopWeb"/>
-                    <!--
                     <include name="LoginLockedoutUser"/>
                     <include name="LoginPerfGlitchUser"/>
                     <include name="LoginProblemUser"/>
                     <include name="pageValidationSimulator"/>
                     <include name="pageValidationEmulator"/>
-                    -->
                 </methods>
             </class>
         </classes>

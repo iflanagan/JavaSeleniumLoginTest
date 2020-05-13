@@ -169,7 +169,11 @@ public Boolean  LoginPerfGlitchUser(String user, String passwd) {
     	
     	System.out.printf("\nEnter Password: ");
 		TestBase.setSauceContext("Enter password:" +user);
-    	password.sendKeys(passwd);
+			TestBase.setSauceLabsLogging(driver, "sauce: disable log");
+			password.sendKeys(passwd);
+			// enable logging
+			TestBase.setSauceLabsLogging(driver, "sauce: enable log");
+
     	
     	System.out.printf("\nClick Login button");
 		TestBase.setSauceContext("Click Login button");
@@ -184,8 +188,7 @@ public Boolean  LoginPerfGlitchUser(String user, String passwd) {
     	System.out.printf("\nPerforming validation");
 		TestBase.setSauceContext("Performing validation");
    // 	Thread.sleep(delay);
-    	
-    	
+
 if(driver.getPageSource().contains("Logout")){
 	
 			// Race condition for time to populate yourCommentsSpan
@@ -231,7 +234,7 @@ if(driver.getPageSource().contains("Logout")){
     	{
     	
     	System.out.printf("\nStarting Login Locked out User function now");
-		TestBase.setSauceContext("Click logout Button");
+		TestBase.setSauceContext("Starting Login Locked out User function now");
     	
     	System.out.printf("\nEnter username: " +user);
 		TestBase.setSauceContext("Enter username:" +user);
@@ -239,7 +242,9 @@ if(driver.getPageSource().contains("Logout")){
     	
     	System.out.printf("\nEnter Password: " +passwd);
 		TestBase.setSauceContext("Enter Password:");
+		TestBase.setSauceLabsLogging(driver, "sauce: disable log");
     	password.sendKeys(passwd);
+		TestBase.setSauceLabsLogging(driver, "sauce: enable log");
     	
     	System.out.printf("\nClick Login button");
 		TestBase.setSauceContext("Click Login button");
@@ -305,22 +310,30 @@ public Boolean LoginProblemUser(String user, String passwd) {
   	{
   	
   	System.out.printf("\nStarting Login Problem User function now");
+	TestBase.setSauceContext("Starting Login Problem User function now");
   	
   	System.out.printf("\nEnter username: " +user);
+	TestBase.setSauceContext("Enter username: " +user);
   	username.sendKeys(user);
-  	
+
+	TestBase.setSauceContext("Enter password ");
   	System.out.printf("\nEnter Password: " +passwd);
+  	TestBase.setSauceLabsLogging(driver, "sauce: disable log");
   	password.sendKeys(passwd);
+  	TestBase.setSauceLabsLogging(driver, "sauce: enable log");
   	
-  	System.out.printf("\nClick Login button");   	
+  	System.out.printf("\nClick Login button");
+	TestBase.setSauceContext("Click Login button");
   	Thread.sleep(delay);
   	LoginButton.click();
   	
-  	System.out.printf("\nClick on Hamburger icon");   
+  	System.out.printf("\nClick on Hamburger icon");
+  	TestBase.setSauceContext("Click on Hamburger icon");
   	Thread.sleep(delay);
   	hamburgericon.click();
   	
-  	System.out.printf("\nPerforming validation");   
+  	System.out.printf("\nPerforming validation");
+	TestBase.setSauceContext("Performing validation");
  // 	Thread.sleep(delay);
   	
   	
@@ -329,7 +342,8 @@ if(driver.getPageSource().contains("Logout")){
 			// Race condition for time to populate yourCommentsSpan
 		    WebDriverWait wait = new WebDriverWait(driver, 15);
 		    wait.until(ExpectedConditions.textToBePresentInElement(LogoutButton, "Logout"));		   		
-  		System.out.println("\nLogin Problem User Passed");
+  			System.out.println("\nLogin Problem User Passed");
+			TestBase.setSauceContext("Login Problem User Passed");
   		
   		
   		value = true;
@@ -338,10 +352,12 @@ if(driver.getPageSource().contains("Logout")){
   	
   	else {
   		System.out.println("\nLogin Problem User Failed");
+		TestBase.setSauceContext("Login Problem User Failed");
   		
   		}
-  	
-  	  
+
+	TestBase.setSauceContext("Click on logout link");
+	System.out.printf("\nClick on logout link");
   	LogoutButton.click();
   	
   	
@@ -352,8 +368,10 @@ if(driver.getPageSource().contains("Logout")){
   	{
   		
   		System.out.printf("\nCan't execute login Problem User function: " +ex);
+		TestBase.setSauceContext("Can't execute login Problem User function:" +ex);
   	}
-  	
+
+	TestBase.setSauceContext("LoginProblemUser Test Finished");
   	return value;
 
     
