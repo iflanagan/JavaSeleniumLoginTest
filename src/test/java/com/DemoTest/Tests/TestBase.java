@@ -328,6 +328,14 @@ public  class TestBase  {
         ((JavascriptExecutor) webDriver.get()).executeScript("sauce:context=" + text);
     }
 
+    public static void setSauceLabsLogging(WebDriver driver, String command)
+    {
+        // command = sauce: disable log TOOENABLE = sauce: enable log
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript(command);
+
+    }
+
 
     @AfterMethod
     public void tearDown(ITestResult result) throws Exception {

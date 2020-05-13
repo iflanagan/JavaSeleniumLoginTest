@@ -92,7 +92,11 @@ public class WebDemoPage  {
     	
     	System.out.printf("\nEnter Password: " +passwd);
 		TestBase.setSauceContext("Enter Password: ");
+		// disable logging
+		TestBase.setSauceLabsLogging(driver, "sauce: disable log");
     	password.sendKeys(passwd);
+			// enable logging
+		TestBase.setSauceLabsLogging(driver, "sauce: enable log");
     	
     	System.out.printf("\nClick Login button");
 		TestBase.setSauceContext("Click Login button");
@@ -141,7 +145,7 @@ public class WebDemoPage  {
 			TestBase.setSauceContext("Can't execute login function" +ex);
     		System.out.printf("\nCan't execute login function: " +ex);
     	}
-    	
+		TestBase.setSauceContext("Login Test Finished");
     	return value;
 
       
